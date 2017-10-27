@@ -11,4 +11,5 @@ class Anagram
   end
 end
 
+require 'set'
 puts [1,2,3,4,3,2,1].to_set
