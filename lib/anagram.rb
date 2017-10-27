@@ -12,4 +12,4 @@ class Anagram
 end
 
 require 'set'
-puts "hello".split('').to_set.inspect
+puts "hello".count('l')
