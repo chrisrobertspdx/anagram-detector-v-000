@@ -12,4 +12,4 @@ class Anagram
 end
 
 require 'set'
-puts "hello".to_set.inspect
+puts "hello".split('').to_set.inspect
