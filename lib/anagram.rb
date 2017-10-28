@@ -27,5 +27,5 @@ class Anagram
 
 end
 
-apple = Anagram.new("apples")
-puts apple.match(["bob","abcde","lappe"])
+listen = Anagram.new("listen")
+puts listen.match(%w(enlists google inlets banana))
