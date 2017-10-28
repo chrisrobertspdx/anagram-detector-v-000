@@ -10,17 +10,11 @@ class Anagram
 
     word_arr.each{|e|
       matching = false
-      puts e
       if e.size == word.size
         matching = true
-        puts "size match"
         e.split('').each{|i|
-         puts i
-         puts e.count(i)
-         puts word.count(i)
-         puts matching
          if e.count(i) != word.count(i)
-           matching == false
+           matching = false
          end
         }
       end
