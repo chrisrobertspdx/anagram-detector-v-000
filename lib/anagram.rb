@@ -26,3 +26,4 @@ class Anagram
 end
 
 apple = Anagram.new("apple")
+puts apple.match(["bob","abcde","lappe"])
