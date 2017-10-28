@@ -7,8 +7,10 @@ class Anagram
   end
 
   def match(word_arr)
+
     word_arr.each{|e|
       matching = false
+      puts e
       if e.size == word.size
         matching == true
         e.split('').each{|i|
