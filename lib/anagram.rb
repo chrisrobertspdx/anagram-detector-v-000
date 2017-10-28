@@ -15,12 +15,12 @@ class Anagram
          if e.count(i) != word.count(i)
            matching == false
          end
-      }
+        }
+      end
       if matching == true
         return true
       end
     }
-  end
 end
 
 apple = Anagram.new("apple")
