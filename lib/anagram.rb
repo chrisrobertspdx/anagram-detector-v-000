@@ -12,7 +12,7 @@ class Anagram
       matching = false
       if e.size == word.size
         matching = true
-        e.split('').each{|i|
+        e.split('').uniq.each{|i|
          if e.count(i) != word.count(i)
            matching = false
          end
