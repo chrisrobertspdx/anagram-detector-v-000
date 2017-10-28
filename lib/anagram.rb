@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(word_arr)
-
+    match_array = []
     word_arr.each{|e|
       matching = false
       if e.size == word.size
@@ -19,10 +19,10 @@ class Anagram
         }
       end
       if matching == true
-        return true
+        match_array << e
       end
     }
-    return false
+    return match_array
   end
 
 end
