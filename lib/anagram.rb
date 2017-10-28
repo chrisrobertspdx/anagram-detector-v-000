@@ -15,6 +15,7 @@ class Anagram
         matching == true
         puts "size match"
         e.split('').each{|i|
+         puts i
          if e.count(i) != word.count(i)
            matching == false
          end
