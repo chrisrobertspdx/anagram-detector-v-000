@@ -21,6 +21,8 @@ class Anagram
         return true
       end
     }
+  end
+
 end
 
 apple = Anagram.new("apple")
