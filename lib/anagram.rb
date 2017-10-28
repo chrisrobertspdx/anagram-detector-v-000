@@ -7,9 +7,20 @@ class Anagram
   end
 
   def match(word_arr)
-
+    word_arr.each{|e|
+      matching = false
+      if e.size == word.size
+        matching == true
+        e.split('').each{|i|
+         if e.count(i) != word.count(i)
+           matching == false
+         end
+      }
+      if matching == true
+        return true
+      end
+    }
   end
 end
 
-require 'set'
-puts "hello".count('l')
+apple = Anagram.new("apple")
