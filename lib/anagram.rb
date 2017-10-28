@@ -21,6 +21,7 @@ class Anagram
         return true
       end
     }
+    return false
   end
 
 end
