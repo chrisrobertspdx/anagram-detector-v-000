@@ -27,5 +27,5 @@ class Anagram
 
 end
 
-apple = Anagram.new("apple")
+apple = Anagram.new("apples")
 puts apple.match(["bob","abcde","lappe"])
