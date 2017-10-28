@@ -12,7 +12,7 @@ class Anagram
       matching = false
       puts e
       if e.size == word.size
-        matching == true
+        matching = true
         puts "size match"
         e.split('').each{|i|
          puts i
